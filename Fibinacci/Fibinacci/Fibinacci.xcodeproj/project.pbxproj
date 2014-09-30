@@ -12,6 +12,14 @@
 		B229786819DB153E00D5EC2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B229786619DB153E00D5EC2C /* Main.storyboard */; };
 		B229786A19DB153E00D5EC2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B229786919DB153E00D5EC2C /* Images.xcassets */; };
 		B229787619DB153E00D5EC2C /* FibinacciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B229787519DB153E00D5EC2C /* FibinacciTests.swift */; };
+		B229788D19DB17C000D5EC2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B229788119DB17C000D5EC2C /* AppDelegate.swift */; };
+		B229788E19DB17C000D5EC2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B229788219DB17C000D5EC2C /* Main.storyboard */; };
+		B229788F19DB17C000D5EC2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B229788419DB17C000D5EC2C /* Images.xcassets */; };
+		B229789019DB17C000D5EC2C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B229788519DB17C000D5EC2C /* Info.plist */; };
+		B229789119DB17C000D5EC2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B229788619DB17C000D5EC2C /* ViewController.swift */; };
+		B229789219DB17C000D5EC2C /* FibinacciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B229788B19DB17C000D5EC2C /* FibinacciTests.swift */; };
+		B229789319DB17C000D5EC2C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B229788C19DB17C000D5EC2C /* Info.plist */; };
+		B229789719DB190800D5EC2C /* FibonacciModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B229789619DB190800D5EC2C /* FibonacciModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,15 @@
 		B229786F19DB153E00D5EC2C /* FibinacciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibinacciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B229787419DB153E00D5EC2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B229787519DB153E00D5EC2C /* FibinacciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibinacciTests.swift; sourceTree = "<group>"; };
+		B229788119DB17C000D5EC2C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B229788319DB17C000D5EC2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B229788419DB17C000D5EC2C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B229788519DB17C000D5EC2C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B229788619DB17C000D5EC2C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B229788719DB17C000D5EC2C /* Fibinacci.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Fibinacci.xcodeproj; sourceTree = "<group>"; };
+		B229788B19DB17C000D5EC2C /* FibinacciTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibinacciTests.swift; sourceTree = "<group>"; };
+		B229788C19DB17C000D5EC2C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B229789619DB190800D5EC2C /* FibonacciModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +74,7 @@
 		B229785419DB153E00D5EC2C = {
 			isa = PBXGroup;
 			children = (
+				B229787F19DB17C000D5EC2C /* Fibinacci */,
 				B229785F19DB153E00D5EC2C /* Fibinacci */,
 				B229787219DB153E00D5EC2C /* FibinacciTests */,
 				B229785E19DB153E00D5EC2C /* Products */,
@@ -107,6 +125,43 @@
 				B229787419DB153E00D5EC2C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B229787F19DB17C000D5EC2C /* Fibinacci */ = {
+			isa = PBXGroup;
+			children = (
+				B229788019DB17C000D5EC2C /* Fibinacci */,
+				B229788719DB17C000D5EC2C /* Fibinacci.xcodeproj */,
+				B229788A19DB17C000D5EC2C /* FibinacciTests */,
+				B229789619DB190800D5EC2C /* FibonacciModel.swift */,
+			);
+			name = Fibinacci;
+			sourceTree = "<group>";
+		};
+		B229788019DB17C000D5EC2C /* Fibinacci */ = {
+			isa = PBXGroup;
+			children = (
+				B229788119DB17C000D5EC2C /* AppDelegate.swift */,
+				B229788219DB17C000D5EC2C /* Main.storyboard */,
+				B229788419DB17C000D5EC2C /* Images.xcassets */,
+				B229788519DB17C000D5EC2C /* Info.plist */,
+				B229788619DB17C000D5EC2C /* ViewController.swift */,
+			);
+			path = Fibinacci;
+			sourceTree = "<group>";
+		};
+		B229788819DB17C000D5EC2C /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B229788A19DB17C000D5EC2C /* FibinacciTests */ = {
+			isa = PBXGroup;
+			children = (
+				B229788B19DB17C000D5EC2C /* FibinacciTests.swift */,
+				B229788C19DB17C000D5EC2C /* Info.plist */,
+			);
+			path = FibinacciTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +231,12 @@
 			mainGroup = B229785419DB153E00D5EC2C;
 			productRefGroup = B229785E19DB153E00D5EC2C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B229788819DB17C000D5EC2C /* Products */;
+					ProjectRef = B229788719DB17C000D5EC2C /* Fibinacci.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B229785C19DB153E00D5EC2C /* Fibinacci */,
@@ -189,7 +250,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B229788E19DB17C000D5EC2C /* Main.storyboard in Resources */,
+				B229788F19DB17C000D5EC2C /* Images.xcassets in Resources */,
+				B229789319DB17C000D5EC2C /* Info.plist in Resources */,
 				B229786819DB153E00D5EC2C /* Main.storyboard in Resources */,
+				B229789019DB17C000D5EC2C /* Info.plist in Resources */,
 				B229786A19DB153E00D5EC2C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,7 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B229789719DB190800D5EC2C /* FibonacciModel.swift in Sources */,
+				B229789219DB17C000D5EC2C /* FibinacciTests.swift in Sources */,
+				B229788D19DB17C000D5EC2C /* AppDelegate.swift in Sources */,
 				B229786519DB153E00D5EC2C /* ViewController.swift in Sources */,
+				B229789119DB17C000D5EC2C /* ViewController.swift in Sources */,
 				B229786319DB153E00D5EC2C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,6 +305,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				B229786719DB153E00D5EC2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B229788219DB17C000D5EC2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B229788319DB17C000D5EC2C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -346,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -357,6 +435,7 @@
 				INFOPLIST_FILE = FibinacciTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fibinacci.app/Fibinacci";
 			};
 			name = Debug;
@@ -365,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
